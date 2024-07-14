@@ -1,11 +1,11 @@
 import { MarketData } from './marketData';
-import { ActivitiesName, DefaultActivity } from './static/interfaces';
+import { ActivitiesName, DefaultActivity, JsonObject } from './static/interfaces';
 import ActivitiesStatus from './static/enums';
 
 
 export class Operator {
-    items: any;
-    config: any;
+    items!: JsonObject;
+    config!: JsonObject;
     activitiesName!: ActivitiesName;
     defaultActivity!: DefaultActivity;
 
