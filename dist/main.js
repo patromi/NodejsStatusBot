@@ -18,7 +18,7 @@ const program = new commander_1.Command();
 program
     .option('-c, --config <path>', 'Path to the configuration file', './conf.json')
     .option('-m, --marketdata <path>', 'Path to the market data file', './specific_test.json')
-    .option('-o, --output <path>', 'Path to the output file', './output.json')
+    .option('-o, --output <path>', 'Path to the output file', './bot_status.json')
     .parse(process.argv);
 const options = program.opts();
 class Main extends operator_1.Operator {
@@ -74,7 +74,7 @@ class Main extends operator_1.Operator {
                     }
                 }
             }
-            console.log('Iterating market data completed.');
+            console.log('Writing to file completed.');
         });
     }
     delay(ms) {
