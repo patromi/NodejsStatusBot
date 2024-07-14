@@ -1,0 +1,21 @@
+1. Sprawdzenie czy plik market_data.json istnieje.
+    Tak - Otwórz ten plik strumieniowo
+    Nie - Wyświetl odpowiedni błąd/ Throw error
+
+2. Otwórz/Stwórz plik bot_status.json w trybie append (Sprawdzaj błey np braku permisji, brak miesjca na dysku) i stwórz pusty array results_array.
+
+3. Sprawdz czy istnieje plik JSON conf z odpowiednimi statusami oraz trigerami w odpowiedniej kolejnosci (paused_global jako pierwsze).
+    Tak - Załaduj odpowiednio do pamięci
+    Nie - Załaduj domyślne wartości/ Throw error
+
+4. Sprarsuj plik market_data.json do obiektu market_data (Array).
+
+5. Iteruj po obiekcie market_data.
+    1. Pobierz odpowiedni datetime oraz sprawdź czy to jest dzień sprecyzowany pliku konfiguracyjnym (pasued_days). / Dodaj do results_array wartości market_data ze statusem paused_global
+    2. Odczyt spead oraz session i odpowiednia klasyfikacja wobec pliku conf.json w raz z odpowiednim condition_spread (tylko dla active_**).
+    3. Jeżeli aktywne są statusy podane w ...
+    4. not above ...
+
+
+
+6.Zapisać/stworzyć plik bot_status.json w odpowiednim formacie JSON z danymi result_array. Zamknąć plik. 

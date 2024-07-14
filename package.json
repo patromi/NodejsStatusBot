@@ -1,0 +1,20 @@
+{
+  "name": "market-data-processor",
+  "version": "1.0.0",
+  "description": "Market data processor for trading platform",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/main.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "npm": "^10.8.2",
+    "stream-json": "^1.8.0",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/stream-json": "^1.7.7"
+  }
+}

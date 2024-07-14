@@ -1,0 +1,55 @@
+{
+    "items": [
+        {
+            "activities": [
+                {
+                    "active_us": [
+                        {
+                            "spread": 0.2,
+                            "condition_spread": "<=",
+                            "sessions": [
+                                "New York",
+                                "London"
+                            ]
+                        },
+                        {
+                            "spread": 0.1,
+                            "condition_spread": "<=",
+                            "sessions": [
+                                "Sydney"
+                            ]
+                        }
+                    ],
+                    "active_jp": [
+                        {
+                            "spread": 0.3,
+                            "condition_spread": "<=",
+                            "sessions": [
+                                "Tokyo"
+                            ]
+                        }
+                    ]
+                }
+            ],
+
+            "activities_connections":{
+            "active_us_jp": {
+                "active_status": [
+                    "active_us",
+                    "active_jp"
+                ]
+            }},
+            "standby": {
+                "deafultStatus": "true"
+            },
+            "paused_global": {
+                "paused_days": [
+                    "Sunday",
+                    "Saturday"
+                ]
+            }
+        }
+    ],
+    "marketdata_path": "./market_data_sample.json",
+    "output_path": "./output.json"
+}

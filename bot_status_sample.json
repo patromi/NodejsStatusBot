@@ -1,0 +1,309 @@
+[
+  {
+    "datetime": "2024-07-30T22:00:00Z",
+    "spread": 0.42,
+    "sessions": [
+      "New York",
+      "Tokyo",
+      "Sydney",
+      "London"
+    ],
+    "volume": 32687,
+    "average_price": 21261.57,
+    "price_change": 0.35,
+    "status": [
+      "standby"
+    ]
+  },
+  {
+    "datetime": "2024-09-25T09:00:00Z",
+    "spread": 0.45,
+    "sessions": [
+      "Tokyo",
+      "New York",
+      "Boston",
+      "London",
+      "Sydney"
+    ],
+    "volume": 47020,
+    "average_price": 995.42,
+    "price_change": 0.54,
+    "status": [
+      "standby"
+    ]
+  },
+  {
+    "datetime": "2023-12-27T16:30:00Z",
+    "spread": 0.45,
+    "sessions": [
+      "New York",
+      "Boston"
+    ],
+    "volume": 23880,
+    "average_price": 39343.8,
+    "price_change": 0.17,
+    "status": [
+      "standby"
+    ]
+  },
+  {
+    "datetime": "2025-01-22T23:30:00Z",
+    "spread": 0.48,
+    "sessions": [
+      "New York",
+      "Tokyo",
+      "London",
+      "Boston",
+      "Sydney"
+    ],
+    "volume": 32309,
+    "average_price": 6181.09,
+    "price_change": 0.73,
+    "status": [
+      "standby"
+    ]
+  },
+  {
+    "datetime": "2024-01-21T03:00:00Z",
+    "spread": 0.16,
+    "sessions": [
+      "New York",
+      "London",
+      "Tokyo",
+      "Boston"
+    ],
+    "volume": 23931,
+    "average_price": 44420.25,
+    "price_change": 0.01,
+    "status": [
+      "paused_global"
+    ]
+  },
+  {
+    "datetime": "2023-10-06T11:00:00Z",
+    "spread": 0.17,
+    "sessions": [
+      "Boston",
+      "London"
+    ],
+    "volume": 48007,
+    "average_price": 5401.9,
+    "price_change": 0.17,
+    "status": [
+      "active_us"
+    ]
+  },
+  {
+    "datetime": "2024-08-14T02:30:00Z",
+    "spread": 0.49,
+    "sessions": [
+      "Tokyo",
+      "London"
+    ],
+    "volume": 29895,
+    "average_price": 26542.84,
+    "price_change": 0.59,
+    "status": [
+      "standby"
+    ]
+  },
+  {
+    "datetime": "2024-10-22T18:00:00Z",
+    "spread": 0.16,
+    "sessions": [
+      "Sydney"
+    ],
+    "volume": 40459,
+    "average_price": 17060.3,
+    "price_change": 0.98,
+    "status": [
+      "standby"
+    ]
+  },
+  {
+    "datetime": "2025-05-05T13:00:00Z",
+    "spread": 0.27,
+    "sessions": [
+      "London",
+      "Boston",
+      "New York"
+    ],
+    "volume": 29255,
+    "average_price": 39357.37,
+    "price_change": 0.76,
+    "status": [
+      "standby"
+    ]
+  },
+  {
+    "datetime": "2024-12-14T01:30:00Z",
+    "spread": 0.37,
+    "sessions": [
+      "Tokyo",
+      "Boston",
+      "Sydney",
+      "New York"
+    ],
+    "volume": 19788,
+    "average_price": 38321.82,
+    "price_change": 0.77,
+    "status": [
+      "paused_global"
+    ]
+  },
+  {
+    "datetime": "2024-05-06T21:30:00Z",
+    "spread": 0.32,
+    "sessions": [
+      "Boston",
+      "Sydney",
+      "Tokyo",
+      "New York"
+    ],
+    "volume": 31071,
+    "average_price": 45382.85,
+    "price_change": 0.69,
+    "status": [
+      "standby"
+    ]
+  },
+  {
+    "datetime": "2023-06-22T21:00:00Z",
+    "spread": 0.41,
+    "sessions": [
+      "Boston",
+      "New York"
+    ],
+    "volume": 17194,
+    "average_price": 34763.99,
+    "price_change": 0.71,
+    "status": [
+      "standby"
+    ]
+  },
+  {
+    "datetime": "2024-01-02T03:30:00Z",
+    "spread": 0.28,
+    "sessions": [
+      "Boston",
+      "New York",
+      "Tokyo"
+    ],
+    "volume": 40272,
+    "average_price": 48219.71,
+    "price_change": 0.5,
+    "status": [
+      "active_jp"
+    ]
+  },
+  {
+    "datetime": "2025-03-25T00:00:00Z",
+    "spread": 0.36,
+    "sessions": [
+      "London",
+      "Tokyo",
+      "New York"
+    ],
+    "volume": 12851,
+    "average_price": 4298.69,
+    "price_change": 0.86,
+    "status": [
+      "standby"
+    ]
+  },
+  {
+    "datetime": "2023-06-05T09:30:00Z",
+    "spread": 0.32,
+    "sessions": [
+      "New York",
+      "Tokyo",
+      "London",
+      "Sydney"
+    ],
+    "volume": 15437,
+    "average_price": 14581.54,
+    "price_change": 0.57,
+    "status": [
+      "standby"
+    ]
+  },
+  {
+    "datetime": "2023-07-15T12:30:00Z",
+    "spread": 0.2,
+    "sessions": [
+      "London",
+      "New York",
+      "Sydney",
+      "Tokyo",
+      "Boston"
+    ],
+    "volume": 25744,
+    "average_price": 41565.73,
+    "price_change": 0.72,
+    "status": [
+      "paused_global"
+    ]
+  },
+  {
+    "datetime": "2023-06-04T08:30:00Z",
+    "spread": 0.49,
+    "sessions": [
+      "Sydney"
+    ],
+    "volume": 9229,
+    "average_price": 16933.95,
+    "price_change": 0.51,
+    "status": [
+      "paused_global"
+    ]
+  },
+  {
+    "datetime": "2023-10-05T21:30:00Z",
+    "spread": 0.15,
+    "sessions": [
+      "Tokyo",
+      "New York",
+      "Boston"
+    ],
+    "volume": 24607,
+    "average_price": 48524.81,
+    "price_change": 0.4,
+    "status": [
+      "active_jp",
+      "active_us",
+      "active_us_jp"
+    ]
+  },
+  {
+    "datetime": "2023-11-12T07:00:00Z",
+    "spread": 0.49,
+    "sessions": [
+      "Sydney",
+      "London",
+      "New York",
+      "Tokyo",
+      "Boston"
+    ],
+    "volume": 34369,
+    "average_price": 37591.96,
+    "price_change": 0.63,
+    "status": [
+      "paused_global"
+    ]
+  },
+  {
+    "datetime": "2025-03-20T08:00:00Z",
+    "spread": 0.45,
+    "sessions": [
+      "Tokyo",
+      "Boston",
+      "London"
+    ],
+    "volume": 1269,
+    "average_price": 10589.7,
+    "price_change": 0.02,
+    "status": [
+      "standby"
+    ]
+  }
+]
