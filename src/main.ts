@@ -82,11 +82,15 @@ class Main extends Operator {
       } else if (processedCount === 0) {
         await this.delay(100);
       } else {
-        await this.delay(5000);
-        this.file.writeToFile(this.outputPath, this.resultArray);
+        await this.delay(1);
+        if (this.marketArray.length !== 0) {
+          continue;
+        }
         if (this.marketArray.length === 0 && processedCount > 0) {
           break;
         }
+
+        this.file.writeToFile(this.outputPath, this.resultArray);
       }
     }
 
