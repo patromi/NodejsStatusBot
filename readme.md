@@ -1,5 +1,6 @@
 # Solution
 - Author: [Patryk Migaj]
+- This is a solution for the task described in the [Interview tasks](#interview-tasks) section
 - The solution is located in the `src` directory, and the main file is main.ts
 - The solution is written in TypeScript 
 
